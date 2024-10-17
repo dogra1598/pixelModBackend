@@ -1,0 +1,20 @@
+{
+  "name": "pixelmodbackend",
+  "version": "1.0.0",
+  "description": "pixelMod backend",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --env-file=.env src/index.js"
+  },
+  "author": "Vishal Dogra",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "prettier": "^3.3.3"
+  }
+}
